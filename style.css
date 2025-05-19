@@ -63,7 +63,7 @@ html{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-
+   
 }
 .read button{
     border: none;
@@ -74,7 +74,10 @@ html{
     padding-right: 25px;
     border-radius: 25px;
     color: #3b96ff;
-    transition-duration: 1.s;
+   transition: transform 0.3s;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 .read button:hover{
 transform: scale(1.3);
